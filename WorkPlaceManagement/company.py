@@ -1,4 +1,4 @@
-from work_place import WorkPlace, Consts
+from .work_place import WorkPlace, Consts
 
 class Company(WorkPlace):
     def __init__(self, name: str) -> None:

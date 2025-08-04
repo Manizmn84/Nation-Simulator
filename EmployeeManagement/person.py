@@ -4,7 +4,22 @@ import math
 class Consts:
     BASE_PRICE = {'worker': 1200, 'teacher': 1500, 'engineer': 2000}
     BASE_COST = {'worker': 200, 'teacher': 150, 'engineer': 300}
-    BASE_INCOME = {'worker': {'mine': 800}, 'teacher': {'mine': 300}, 'engineer': {'mine': 1000}}
+    BASE_INCOME = {
+    'worker': {
+        'mine': 800,
+        'company': 500,
+        'school': 300
+    },
+    'teacher': {
+        'mine': 300,
+        'school': 1200
+    },
+    'engineer': {
+        'mine': 1000,
+        'company': 2000  
+    }
+}
+
     MIN_AGE = 15
     AGE_MUL = 10
 

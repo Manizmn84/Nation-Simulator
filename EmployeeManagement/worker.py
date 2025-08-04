@@ -1,4 +1,4 @@
-from person import Person , Consts 
+from .person import Person , Consts 
 import math
 
 class Worker(Person):
